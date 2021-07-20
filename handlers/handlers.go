@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	model "deserve/model"
 	"encoding/json"
 	"net/http"
 	"os"
-	model "deserve/model"
 )
 
 func JsonHandler(w http.ResponseWriter, r *http.Request) {
@@ -15,8 +15,9 @@ func JsonHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	info := model.Info{
-		Message:       "Hello Deserve",
-		Branches:      "US, Pune, Banglore",
+		Message:       "Hello Talentica",
+		Branches:      "Pune",
+		Employee:      450,
 		ContainerName: name,
 	}
 
