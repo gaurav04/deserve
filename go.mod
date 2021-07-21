@@ -1,3 +1,3 @@
-module deserve
+module talentica
 
 go 1.16

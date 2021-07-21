@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	handlers "deserve/handlers"
+	handlers "talentica/handlers"
 )
 
 func handleRequests() {

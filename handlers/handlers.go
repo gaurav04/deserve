@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	model "deserve/model"
 	"encoding/json"
 	"net/http"
 	"os"
+	model "talentica/model"
 )
 
 func JsonHandler(w http.ResponseWriter, r *http.Request) {
