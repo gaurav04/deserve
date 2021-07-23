@@ -36,4 +36,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           file: Dockerfile
+          push: true
           tags: gaurav04/go-app:${{ github.sha }}
